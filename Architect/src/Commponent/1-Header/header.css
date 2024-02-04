@@ -1,0 +1,75 @@
+.container-fluid {
+  color: #ecf39e;
+  font-size: 25px;
+}
+.container-fluid span {
+  justify-content: space-between;
+
+  font-size: 40px;
+  font-weight: 900;
+  transform: translateX(5px);
+}
+
+ul li {
+  margin: 15px;
+  font-weight: 400;
+  font-size: 18px;
+
+  padding: 10px;
+  margin: 0;
+  margin-left: 15px;
+  color: #ecf39e;
+}
+.ObchenPage {
+  display: block;
+  margin-left: 40px;
+}
+@media (max-width: 756px) {
+  .ObchenPage {
+    display: none !important;
+  }
+}
+.hj {
+  position: absolute;
+  z-index: 123765;
+}
+.Menu-icon {
+  font-size: 35px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.Menu-icon .icon-plus1 {
+  font-size: 40px;
+  font-weight: 100;
+
+  border: 2px solid #ecf39e;
+}
+.Menu-closeIcon .icon-x {
+  font-size: 40px;
+  font-weight: 100;
+
+  border: 2px solid #000000;
+}
+.Menu-closeIcon {
+  font-size: 35px;
+  font-weight: 200;
+  margin-top: 20px;
+  color: black;
+
+  cursor: pointer;
+  position: absolute;
+  z-index: "54323456789";
+  justify-content: end;
+  right: 50px;
+  top: 5px;
+}
+.content h1 {
+  font-size: clamp(3rem, 7.5vw, 6rem);
+  margin: 20px;
+  font-weight: 100;
+}
+.content h3 {
+  font-size: clamp(2.5rem, 5.5vw, 4rem);
+  margin: 20px;
+  font-weight: 100;
+}

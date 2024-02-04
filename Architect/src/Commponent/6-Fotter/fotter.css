@@ -1,0 +1,14 @@
+.prent-Footer {
+  background-color: #fcffeb;
+  padding: 60px 0;
+}
+.prent-Footer :where(h3) {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #bcd915;
+  margin-bottom: 30px;
+}
+.prent-Footer :where(hr) {
+  background-color: #bcd915;
+  height: 3px;
+}

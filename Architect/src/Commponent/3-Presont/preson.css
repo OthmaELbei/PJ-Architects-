@@ -1,0 +1,24 @@
+.Prent {
+  font-size: 26px;
+  background-color: #fcffeb;
+  text-align: end;
+  color: #131507;
+  margin-top: -100px;
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.Prent q {
+  color: #ecf39e;
+  text-align: center;
+  padding: 0 100px;
+}
+.Prent q p {
+  color: #000000;
+}
+.Prent q p span {
+  font-size: 28px;
+  color: #ecf39e;
+}
