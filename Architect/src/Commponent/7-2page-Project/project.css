@@ -1,0 +1,64 @@
+.Prenet-project {
+  /* background-color: #fcffeb; */
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+.parent {
+  background-color: #fcffeb;
+
+  padding-bottom: 100px;
+  position: relative;
+}
+.links {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  z-index: 1;
+
+  transform: translate(-50%, -50%);
+}
+
+.links ul {
+  display: flex;
+}
+.links ul li .Link {
+  color: black;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 100;
+}
+.Homes {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+}
+.content {
+  height: 100vh;
+  width: 100px !important;
+}
+.text-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 5px 15px;
+  transform: translate(-50%, -50%);
+  background: gray;
+  color: white;
+  border-radius: 20px;
+}
+.prje {
+  margin: 20px 0;
+}
+.imgss {
+  transform: translate(120px, 20px);
+  margin: 20px 0;
+}
+.prje :where(p) {
+  font-weight: 200;
+}
+.prje :where(h1) {
+  font-weight: 800;
+  font-size: 70px;
+}

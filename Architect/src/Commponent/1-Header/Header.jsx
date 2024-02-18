@@ -32,6 +32,7 @@ export default function Header() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div
+            style={{ transition: "0.6s" }}
             className="d-flex d-md-none ml-5 ObchenPage d-xs-none justify-content-end collapse  navbar-collapse"
             id="navbarSupportedContent"
           >

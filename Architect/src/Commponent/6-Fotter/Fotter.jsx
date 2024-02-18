@@ -1,5 +1,6 @@
 import "./fotter.css";
 import MyData from "../../DataProje/DataOnePage.json";
+
 export default function Fotter() {
   const data = MyData.Data;
   return (

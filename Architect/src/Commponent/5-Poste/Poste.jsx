@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import "./poste.css";
 // import required modules
 import { Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 export default function Poste() {
   return (
@@ -123,8 +124,13 @@ export default function Poste() {
           </SwiperSlide>
         </Swiper>
         <div className="d-flex justify-content-end align-items-center  All-progect">
-          <h2> View All Posts</h2>
-          <div className="  icon-arrow-right2" />
+          <Link
+            className="d-flex justify-content-end align-items-center  progect"
+            to={"/Blog"}
+          >
+            <h2> View All Posts</h2>
+            <div className="  icon-arrow-right2" />
+          </Link>
         </div>
       </div>
     </>

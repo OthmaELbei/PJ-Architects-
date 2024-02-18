@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Drawer, Radio, Space } from "antd";
 import "./header.css";
+import { Link } from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 const Menu = ({ change, setOpen }) => {
   // const [open, setOpen] = useState(true);
@@ -37,21 +38,36 @@ const Menu = ({ change, setOpen }) => {
         key={placement}
       >
         <div
+          style={{ transition: "0.6s" }}
           onClick={closeDrawer}
           className=" Menu-closeIcon d-flex justify-content-center align-items-center "
         >
           Menu <div className="mx-3 icon-x"></div>
         </div>
-        <div className="content d-flex  justify-content-center align-items-center mt-4 pt-4 row px-1 gap-2 ">
-          <div className=" colom col-lg-7 col-md-7 col-12 me-5">
-            <h1>Home</h1>
-            <h1>Projects</h1>
-            <h1>About</h1>
+        <div className="row contente d-flex ">
+          <div className="  col ">
+            <Link to={"/"}>
+              <h1>Home</h1>
+            </Link>
+            <Link to={"/Project"}>
+              <h1>Projects</h1>
+            </Link>
+            <Link to={"/About"}>
+              <h1>About</h1>
+            </Link>
             <div className="d-flex">
-              <h3>Team</h3> <h3>Blog</h3> <h3>Contact</h3>
+              <Link to={"/Time"}>
+                <h3>Team</h3>
+              </Link>
+              <Link to={"/Blog"}>
+                <h3>Blog</h3>
+              </Link>
+              <Link to={"/Contect"}>
+                <h3>Contact</h3>
+              </Link>
             </div>
           </div>
-          <div className="colom ml-5 col-lg-4 col-md-5 col-12">
+          <div className=" col ">
             <h5 className="my-5">STUDIO</h5>
             <h4>
               15 Colbourne Street Hamilton,

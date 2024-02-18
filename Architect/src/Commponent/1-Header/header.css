@@ -1,7 +1,15 @@
-.container-fluid {
+nav {
   color: #ecf39e;
   font-size: 25px;
+  position: fixed;
+  z-index: 125678;
+  padding: 15px;
+  top: 0;
+  left: 0;
+  padding: 0px 20px;
+  margin: 0;
 }
+
 .container-fluid span {
   justify-content: space-between;
 
@@ -11,7 +19,7 @@
 }
 
 ul li {
-  margin: 15px;
+  /* margin: 15px; */
   font-weight: 400;
   font-size: 18px;
 
@@ -63,13 +71,13 @@ ul li {
   right: 50px;
   top: 5px;
 }
-.content h1 {
-  font-size: clamp(3rem, 7.5vw, 6rem);
+.contente h1 {
+  font-size: clamp(7rem, 4.5vw, 6rem);
   margin: 20px;
   font-weight: 100;
 }
-.content h3 {
-  font-size: clamp(2.5rem, 5.5vw, 4rem);
+.contente h3 {
+  font-size: clamp(2.5rem, 2.5vw, 4rem);
   margin: 20px;
   font-weight: 100;
 }
