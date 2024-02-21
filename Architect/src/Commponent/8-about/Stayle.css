@@ -1,0 +1,6 @@
+.second {
+  font-size: clamp(1rem, 3.5vw, 1.2rem);
+}
+.first {
+  font-size: clamp(1rem, 5vw, 2rem);
+}

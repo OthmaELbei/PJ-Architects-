@@ -17,6 +17,7 @@
 }
 .Prent q p {
   color: #000000;
+  font-size: clamp(1rem, 5vw, 2rem);
 }
 .Prent q p span {
   font-size: 28px;

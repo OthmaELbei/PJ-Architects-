@@ -21,6 +21,18 @@ export default function Poste() {
           pagination={{
             clickable: true,
           }}
+          breakpoints={{
+            306: {
+              slidesPerView: 1,
+            },
+
+            768: {
+              slidesPerView: 2,
+            },
+            992: {
+              slidesPerView: 3,
+            },
+          }}
           modules={[Pagination]}
           className="mySwiper mx-4 py-5 mt-5 d-flex flex-row gap-2 row"
         >
@@ -123,7 +135,7 @@ export default function Poste() {
             </div>
           </SwiperSlide>
         </Swiper>
-        <div className="d-flex justify-content-end align-items-center  All-progect">
+        <div className="d-flex px-5 justify-content-end align-items-center  All-progect">
           <Link
             className="d-flex justify-content-end align-items-center  progect"
             to={"/Blog"}

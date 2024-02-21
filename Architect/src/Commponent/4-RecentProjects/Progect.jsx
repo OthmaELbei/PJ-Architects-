@@ -1,4 +1,4 @@
-import ".././7-2page-Project/project.css";
+import "./sityl.css";
 import "../../../public/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 export default function Progect() {
   return (
     <>
-      <div className="ParenProgect ">
+      <div style={{ backgroundColor: "#fcffeb" }} className="ParenProgect ">
         <h1 className="text-center fw-bold">Recent Projects</h1>
         <div className="mx-4 mt-5 d-flex flex-row gap-2 row">
           <div className="Frist col-md-10 flex-grow-1 col-lg-5  ">

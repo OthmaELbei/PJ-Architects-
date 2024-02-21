@@ -25,7 +25,7 @@ const Menu = ({ change, setOpen }) => {
       </Space>
       <Drawer
         style={{
-          backgroundColor: "#ecf39e",
+          backgroundColor: "#d8dda4",
           height: "100vh",
           position: "relative",
           zIndex: "1234567",
@@ -45,45 +45,51 @@ const Menu = ({ change, setOpen }) => {
           Menu <div className="mx-3 icon-x"></div>
         </div>
         <div className="row contente d-flex ">
-          <div className="  col ">
-            <Link to={"/"}>
-              <h1>Home</h1>
+          <div className=" Links-Menu d-flex py-5 flex-column col ">
+            <Link className="Link-Menu" to={"/"}>
+              Home
             </Link>
-            <Link to={"/Project"}>
-              <h1>Projects</h1>
+            <Link className="Link-Menu" to={"/Project"}>
+              Projects
             </Link>
-            <Link to={"/About"}>
-              <h1>About</h1>
+            <Link className="Link-Menu" to={"/About"}>
+              About
             </Link>
             <div className="d-flex">
-              <Link to={"/Time"}>
-                <h3>Team</h3>
+              <Link className="Link-M" to={"/Time"}>
+                Team
               </Link>
-              <Link to={"/Blog"}>
-                <h3>Blog</h3>
+              <Link className="Link-M" to={"/Blog"}>
+                Blog
               </Link>
-              <Link to={"/Contect"}>
-                <h3>Contact</h3>
+              <Link className="Link-M" to={"/Contect"}>
+                Contact
               </Link>
             </div>
           </div>
-          <div className=" col ">
-            <h5 className="my-5">STUDIO</h5>
-            <h4>
+          <div className=" col py-5 Content-Menu ">
+            <h3 style={{ fontWeight: "300", marginLeft: "0" }} className="my-5">
+              STUDIO
+            </h3>
+            <h2 style={{ fontWeight: "100" }} className="fst-normal">
               15 Colbourne Street Hamilton,
               <br /> Ontario L8R 2G2
-            </h4>
-            <h5 className="my-5">CONTACT</h5>
-            <h4>
+            </h2>
+            <h3 style={{ fontWeight: "300", marginLeft: "0" }} className="my-5">
+              CONTACT
+            </h3>
+            <h2 style={{ fontWeight: "100" }}>
               905.529.SMPL (7675) <br /> contact@smpldesignstudio.com
-            </h4>
-            <h5 className="my-5">SOCIAL</h5>
-            <h4>
+            </h2>
+            <h3 style={{ fontWeight: "300", marginLeft: "0" }} className="my-5">
+              SOCIAL
+            </h3>
+            <h2 style={{ fontWeight: "100" }}>
               Instagram <br /> Facebook
-            </h4>
+            </h2>
           </div>
         </div>
-        <div className="row justify-content-center  pt-5">
+        <div className="row justify-content-center  ">
           <div className="col-lg-3 col-md-6 col-12">
             ALL RIGHTS RESERVED SMPL DESIGN STUDIO.
           </div>

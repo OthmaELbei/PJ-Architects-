@@ -1,6 +1,6 @@
 .Prenet-project {
   /* background-color: #fcffeb; */
-  padding-top: 300px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .parent {
@@ -9,24 +9,42 @@
   padding-bottom: 100px;
   position: relative;
 }
-.links {
-  position: absolute;
-  left: 50%;
-  top: 10%;
+.parent .links {
+  position: relative;
+  max-width: fit-content;
+  /* top: 80%; */
   z-index: 1;
-
-  transform: translate(-50%, -50%);
+  left: 50%;
+  transform: translate(-50%, 50%);
 }
 
 .links ul {
   display: flex;
+
+  flex-wrap: wrap;
 }
 .links ul li .Link {
   color: black;
-  padding: 5px;
+
   text-decoration: none;
-  font-size: 22px;
+  overflow: hidden;
+  font-size: clamp(1rem, 3vw, 2.5rem);
   font-weight: 100;
+  position: relative;
+}
+.links ul li .Link::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0%;
+  background-color: black;
+  bottom: 0;
+  left: -0%;
+}
+.links ul li .Link:hover:after {
+  left: 0%;
+  width: 100%;
+  transition: 0.6s;
 }
 .Homes {
   position: absolute;

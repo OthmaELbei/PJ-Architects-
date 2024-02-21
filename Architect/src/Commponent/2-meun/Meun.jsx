@@ -29,12 +29,16 @@ export default function Meun() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className=" image w-100">
+          <div className=" image w-100 ">
             <div className="djk">
               <h1>Hotel </h1>
               <h1>Uk</h1>
             </div>
-            <img src="/452-Winnett-03-c.jpg" alt="architecture-2256489_640" />
+            <img
+              className="w-100 h-100"
+              src="/452-Winnett-03-c.jpg"
+              alt="architecture-2256489_640"
+            />
           </div>
         </SwiperSlide>
         <SwiperSlide>

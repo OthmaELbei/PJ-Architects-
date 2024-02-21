@@ -7,9 +7,9 @@ export default function TxtImgAbout(p) {
       {" "}
       <div className=" row mx-2  d-flex ">
         <Slide top>
-          <div className="col-lg-4 px-2 mx-5 w-50 py-5 h-50 col-md-5 col-12">
-            <p className="fs-3 text-stert">{p.text}</p>
-            <p className="fs-5 text-stert">{p.text2}</p>
+          <div className="col-lg-4 px-2 flex-grow-1 mx-5 w-50 py-5 h-50 col-md-5 col-12">
+            <p className="first   flex-grow-1  text-stert">{p.text}</p>
+            <p className=" second flex-grow-1 text-stert">{p.text2}</p>
           </div>
         </Slide>
         <Slide top>

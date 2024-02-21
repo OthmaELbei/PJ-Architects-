@@ -10,12 +10,12 @@ export default function Blog() {
         <Menu />
         <div className="Contener">
           <h3>Archives</h3>
-          <div className="py-3">
+
+          <div className="py-3  ">
             <h2>Courtyards</h2>
 
             <img
-              className="py-2"
-              style={{ width: "100%", height: "600px" }}
+              className="py-2 w-100 h-100"
               src="/house-1477041_640.jpg"
               alt="house-1477041_640"
             />
@@ -32,8 +32,7 @@ export default function Blog() {
             <h2>2030 Project, Oakville Ontario</h2>
 
             <img
-              className="py-2"
-              style={{ width: "100%", height: "600px" }}
+              className="py-2 w-100 h-100"
               src="/smpl-design-donessle-hero-1024x542.webp"
               alt="smpl-design-donessle-hero-1024x542"
             />
@@ -50,8 +49,7 @@ export default function Blog() {
             <h2>2030 Project, Oakville Ontario</h2>
 
             <img
-              className="py-2"
-              style={{ width: "100%", height: "600px" }}
+              className="py-2 w-100 h-100"
               src="/SMPL-Design-Studio-57-Cameron-Street-Town-of-the-Blue-Mountains-Exterior-8-1024x682 (1).jpg"
               alt="SMPL-Design-Studio-57-Cameron-Street-Town-of-the-Blue-Mountains-Exterior-8-1024x682 (1)"
             />

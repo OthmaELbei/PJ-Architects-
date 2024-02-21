@@ -2,16 +2,9 @@
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
-.image::after {
-  content: "";
-  width: 100%;
-  height: calc(100% + 20px);
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #1b1d0290;
-}
+
 .image img {
   width: 100%;
   height: calc(100% + 20px);
@@ -19,7 +12,8 @@
 }
 .mySwiper {
   position: relative;
-  top: -90px;
+  top: -100px;
+  margin: 0;
 }
 .swiper-pagination-bullet {
   width: 20px;
@@ -34,23 +28,20 @@
 }
 .image .djk {
   position: absolute;
-
   z-index: 123;
   height: 100%;
-  padding: 100px 200px;
-  background-color: #ecf39e1a;
-  right: 30%;
-  top: 0px;
-  transform: skewX(30deg);
+  width: 100%;
+  background-color: #ffffff17;
+  left: 0;
+  top: 0;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 .image .djk h1 {
-  font-size: 50px;
+  font-size: clamp(1rem, 10vw, 4rem);
   font-weight: bold;
-  transform: skewX(-30deg);
   color: #000000;
   border-bottom: 3px solid #000000;
 }
